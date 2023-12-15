@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/styles.css" />
     <title>Silly AI Poems</title>
   </head>
@@ -12,7 +13,7 @@
         <h1>My Silly AI Poems</h1>
       </header>
       <main>
-        <form>
+        <form id="generate">
           <input
             type="search"
             placeholder="Whats a silly idea?"
@@ -21,18 +22,19 @@
           />
           <input type="submit" class="generate" />
         </form>
-        <div class="poem">
-          This is where a silly Poem
-          <br />
-          Idea will go, it will be so silly.
-        </div>
+        <div class="poem" id="poem"></div>
       </main>
       <footer>
         Coded by Leslie Nesbit. This is
-        <a href="https://github.com/LeelooDawn/AI-Silly-Poem-Generator"
+        <a
+          href="https://github.com/LeelooDawn/AI-Silly-Poem-Generator"
+          target="_blank"
           >open-sourced on Github</a
         >
-        and <a href="https://mysillyaipoems.netlify.app/">hosted on Netlify</a>
+        and
+        <a href="https://mysillyaipoems.netlify.app/" target="_blank"
+          >hosted on Netlify</a
+        >
       </footer>
     </div>
     <script src="src/index.js"></script>

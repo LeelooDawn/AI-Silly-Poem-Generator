@@ -1,6 +1,6 @@
 body {
   background-color: honeydew;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 a {
@@ -57,7 +57,7 @@ form {
   font-size: 20px;
   background-color: cornsilk;
   padding: 20px;
-  line-height: 24px;
+  line-height: 45px;
   border-left: 3px solid plum;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
   border-radius: 10px;
