@@ -15,6 +15,11 @@ function generatePoem(event) {
   let context =
     "You have good knowledge about limericks and poems and can make up silly poems. Generate a 4 line poem or limerick for the user and separate each line with a <br/>. Sign the poem with '~ By your AI buddy'";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
+
+  let poemELement = document.querySelector("#poem");
+  poemELement.classList.remove("hidden");
+  poemELement.innerHTML = "Get ready for a silly poem!";
+
   axios.get(apiUrl).then(displayPoem);
 }
 
