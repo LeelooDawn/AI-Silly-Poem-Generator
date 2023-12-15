@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/styles.css" />
     <title>Silly AI Poems</title>
@@ -19,6 +20,7 @@
             placeholder="Whats a silly idea?"
             autofocus
             class="prompt"
+            id="userPrompt"
           />
           <input type="submit" class="generate" />
         </form>
