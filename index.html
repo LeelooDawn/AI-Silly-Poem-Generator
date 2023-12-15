@@ -7,27 +7,34 @@
     <title>Silly AI Poems</title>
   </head>
   <body>
-    <header>
-      <h1 class="headline">My Silly AI Poems</h1>
-    </header>
-    <main>
-      <form>
-        <input type="search" placeholder="Whats a silly idea?" autofocus />
-        <input type="submit" />
-      </form>
-      <div>
-        This is where a silly Poem
-        <br />
-        Idea will go, it will be so silly.
-      </div>
-    </main>
-    <footer>
-      Coded by Leslie Nesbit. This is
-      <a href="https://github.com/LeelooDawn/AI-Silly-Poem-Generator"
-        >open-sourced on Github</a
-      >
-      and <a href="https://mysillyaipoems.netlify.app/">hosted on Netlify</a>
-    </footer>
+    <div class="container">
+      <header>
+        <h1>My Silly AI Poems</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="search"
+            placeholder="Whats a silly idea?"
+            autofocus
+            class="prompt"
+          />
+          <input type="submit" class="generate" />
+        </form>
+        <div class="poem">
+          This is where a silly Poem
+          <br />
+          Idea will go, it will be so silly.
+        </div>
+      </main>
+      <footer>
+        Coded by Leslie Nesbit. This is
+        <a href="https://github.com/LeelooDawn/AI-Silly-Poem-Generator"
+          >open-sourced on Github</a
+        >
+        and <a href="https://mysillyaipoems.netlify.app/">hosted on Netlify</a>
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
