@@ -6,12 +6,12 @@
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/styles.css" />
-    <title>Silly AI Poems</title>
+    <title>Silly AI Poems & Jokes</title>
   </head>
   <body>
     <div class="container">
       <header>
-        <h1>My Silly AI Poems</h1>
+        <h1>My Silly AI Poems & Jokes</h1>
       </header>
       <main>
         <form id="generate">
@@ -25,6 +25,11 @@
           <input type="submit" class="generate" />
         </form>
         <div class="poem hidden" id="poem"></div>
+        <div class="joke center">
+          <h3>Click here if you want me to tell you a joke!</h3>
+          <button id="button" class="generate">Boop</button>
+          <div id="joke" class="poem hidden"></div>
+        </div>
       </main>
       <footer>
         Coded by
